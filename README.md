@@ -11,3 +11,7 @@ Project Web for User Centered Design (Subject) built with optimized tools.
 -  PHP.
 -  Codeigniter.
 -  MySQL.
+
+## Steps
+- Install WampServer, Xampp or another provider of MySQL database.
+- Run localhost/segurosloyer/index.php or 127.0.0.1/segurosloyer/index.php
