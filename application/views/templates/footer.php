@@ -7,20 +7,20 @@
 				<h3 class="widget-title">Colaboradores</h3>
 				<div class="img-gallery">
 					<div class="img-container">
-						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/1.jpg">
-							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/1.jpg" alt="">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/1.jpg">
+							<img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/1.jpg" alt="">
 						</a>
-						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/2.jpg">
-							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/2.jpg" alt="">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/2.jpg">
+							<img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/2.jpg" alt="">
 						</a>
-						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/3.jpg">
-							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/3.jpg" alt="">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/3.jpg">
+							<img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/3.jpg" alt="">
 						</a>
-						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/4.jpg">
-							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/4.jpg" alt="">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/4.jpg">
+							<img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/4.jpg" alt="">
 						</a>
-						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/5.jpg">
-							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/5.jpg" alt="">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/5.jpg">
+							<img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/gallery/5.jpg" alt="">
 						</a>
 					</div>
 				</div>
@@ -35,11 +35,11 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h4>Email:</h4>
-						<p>20175295@itla.edu.do</p>
 						<p>20175379@itla.edu.do</p>
-						<p>20175180@itla.edu.do</p>
-						<p>20174449@itla.edu.do</p>
+						<p>20175295@itla.edu.do</p>
+						<p>20175586@itla.edu.do</p>
 						<p>20175541@itla.edu.do</p>
+						<p>20175072@itla.edu.do</p>
 					</div>
 					<form action="#" role="form">
 						<div class="input-group subscribe">
@@ -77,7 +77,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="copyright-info">
-					&copy; Copyright 2019 Themefisher. <span>Designed by <a href="https://themefisher.com">THEMEFISHER</a></span>
+					&copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
 				</div>
 			</div>
 		</div>
@@ -94,34 +94,34 @@
 	================================================== -->
 
 <!-- initialize jQuery Library -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.js"></script>
 <!-- Bootstrap jQuery -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/bootstrap.min.js"></script>
 <!-- Style Switcher -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/style-switcher.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/style-switcher.js"></script>
 <!-- Owl Carousel -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/owl.carousel.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/owl.carousel.js"></script>
 <!-- PrettyPhoto -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.prettyPhoto.js"></script>
 <!-- Bxslider -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.flexslider.js"></script>
 <!-- CD Hero slider -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/cd-hero.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/cd-hero.js"></script>
 <!-- Isotope -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/isotope.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/ini.isotope.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/isotope.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/ini.isotope.js"></script>
 <!-- Wow Animation -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/wow.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/wow.min.js"></script>
 <!-- SmoothScroll -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/smoothscroll.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/smoothscroll.js"></script>
 <!-- Eeasing -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.easing.1.3.js"></script>
 <!-- Counter -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.counterup.min.js"></script>
 <!-- Waypoints -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/waypoints.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/waypoints.min.js"></script>
 <!-- Template custom -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/custom.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/custom.js"></script>
 </div><!-- Body inner end -->
 </body>
 

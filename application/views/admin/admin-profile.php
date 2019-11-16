@@ -8,17 +8,17 @@
                 <div class="right-divider hidden-sm hidden-xs">
                   <p>Yander Sanchez (2017-5379)</p>
                     <p>Erick David Rosario Alcantara (2017-5295)</p>
-                      <p>Luis Adolfo Pimentel Colón (2017-5180)</p>
+                      <p>Luis Daniel Martinez (2017-5586)</p>
                         <p>Oliver De Jesús Rosario Reyes(2017-5541)</p>
-                          <p>Gregory Mota (2017-4449)</p>
+                          <p>Ricardo Batista (2017-5072)</p>
 
                 </div>
               </div>
               <!-- /col-md-4 -->
               <div class="col-md-4 profile-text">
-                <h3>DEV-LENG-TRAILERSTREAM</h3>
-                <h6>AREA-ADMINISTRADOR</h6>
-                <p>Dev-Legen es una compañia de desarrollo y diseños de proyectos, estamos ubicados en el recidencia del Instituto Tecnologico de Las Americas.</p>
+                <h3>Seguros Loyer</h3>
+                <h6>AREA ADMINISTRADOR</h6>
+                <p>Seguros LOYER es una empresa dedicada a ofrecer seguros de vida, hogar y vehiculos a la sociedad de República Dominicana. Fundada el 22 de Octubre de 2019. </p>
 
                 <br>
                 <p><button class="btn btn-theme"><i class="fa fa-envelope"></i> Send Message</button></p>

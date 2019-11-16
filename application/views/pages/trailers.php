@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
 	================================================== -->
   <meta charset="utf-8">
-  <title>TrailersStream</title>
+  <title>Seguros LOYER</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,35 +16,35 @@
 
   <!-- Favicons
 	================================================== -->
-  <link rel="icon" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+  <link rel="icon" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/SegurosLoyer/images/favicon.ico">
 
   <!-- CSS
 	================================================== -->
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/bootstrap.min.css">
   <!-- Template styles-->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/style.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/style.css">
   <!-- Responsive styles-->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/responsive.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/responsive.css">
   <!-- FontAwesome -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/font-awesome.min.css">
   <!-- Animation -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/animate.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/animate.css">
   <!-- Prettyphoto -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/prettyPhoto.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/prettyPhoto.css">
   <!-- Owl Carousel -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.carousel.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.theme.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/owl.carousel.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/owl.theme.css">
   <!-- Flexslider -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/flexslider.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/flexslider.css">
   <!-- Flexslider -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/cd-hero.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/cd-hero.css">
   <!-- Style Swicther -->
-  <link id="style-switch" href="<?php echo base_url(); ?>assets/TrailerStream/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+  <link id="style-switch" href="<?php echo base_url(); ?>assets/SegurosLoyer/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
@@ -63,14 +63,14 @@
           <!-- Logo start -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">TrailerStream</span>
+              <span class="sr-only">Seguros LOYER</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
               </a>
             </div>
           </div>
@@ -78,7 +78,8 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/trailers">Trailers</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
+              <li><a href="#">Cotizaciones</a></li>
               <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
               <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
             </ul>
@@ -92,12 +93,12 @@
     <!--/ Header end -->
 
     <div id="banner-area">
-      <img src="<?php echo base_url(); ?>assets/TrailerStream/images/banner/banner2.jpg" alt="" />
+      <img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/banner/banner2.jpg" alt="" />
       <div class="parallax-overlay"></div>
       <!-- Subpage title start -->
       <div class="banner-title-content">
         <div class="text-center">
-          <h2><?php echo ('Trailers'); ?></h2>
+          <h2><?php echo ('Servicios'); ?></h2>
         </div>
       </div><!-- Subpage title end -->
     </div><!-- Banner area end -->
@@ -166,7 +167,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="footer-logo">
-            <img src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" width="170px" alt="logo">
+            <img src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" width="170px" alt="logo">
           </div>
           <div class="gap-20"></div>
           <ul class="dark unstyled">
@@ -185,7 +186,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="copyright-info">
-            &copy; Copyright 2019 Themefisher. <span>Designed by <a href="https://themefisher.com">THEMEFISHER</a></span>
+            &copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
           </div>
         </div>
       </div>
@@ -202,34 +203,34 @@
   ================================================== -->
 
   <!-- initialize jQuery Library -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.js"></script>
   <!-- Bootstrap jQuery -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/bootstrap.min.js"></script>
   <!-- Style Switcher -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/style-switcher.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/style-switcher.js"></script>
   <!-- Owl Carousel -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/owl.carousel.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/owl.carousel.js"></script>
   <!-- PrettyPhoto -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.prettyPhoto.js"></script>
   <!-- Bxslider -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.flexslider.js"></script>
   <!-- CD Hero slider -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/cd-hero.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/cd-hero.js"></script>
   <!-- Isotope -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/isotope.js"></script>
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/ini.isotope.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/isotope.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/ini.isotope.js"></script>
   <!-- Wow Animation -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/wow.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/wow.min.js"></script>
   <!-- SmoothScroll -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/smoothscroll.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/smoothscroll.js"></script>
   <!-- Eeasing -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.easing.1.3.js"></script>
   <!-- Counter -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.counterup.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.counterup.min.js"></script>
   <!-- Waypoints -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/waypoints.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/waypoints.min.js"></script>
   <!-- Template custom -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/custom.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/custom.js"></script>
   </div><!-- Body inner end -->
 </body>
 

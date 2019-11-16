@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-12 heading">
         <span class="title-icon classic pull-left"><i class="fa fa-film"></i></span>
-        <h2 class="title classic">Trailers Disponibles</h2>
+        <h2 class="title classic">Últimas noticias</h2>
       </div>
     </div> <!-- Title row end -->
   </div>

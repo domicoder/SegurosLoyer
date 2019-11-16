@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>ADMIN-TRAILERSTREAM </title>
+  <title>ADMIN SEGUROS LOYER </title>
 
   <!-- Favicons -->
   <link href="<?php echo base_url(); ?>assets/img/favicon.png" rel="icon">
