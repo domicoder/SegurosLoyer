@@ -34,8 +34,8 @@
     }
 
     public function trailers(){
-      $this->load->model('crud_model');
-      $trailers = $this->crud_model->get_trailer();
+      $this->load->model('Crud_model');
+      $trailers = $this->Crud_model->get_trailer();
 
       $this->load->view('pages/trailers', compact("trailers"));
     }
