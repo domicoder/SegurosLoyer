@@ -168,7 +168,7 @@
           <div class="col-md-12">
             <div class="col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="1.4s">
               <div class="service-content text-center">
-                <span class="service-icon icon-pentagon"><i class="fa fa-film"></i></span>
+                <span class="service-icon icon-pentagon"><i class="fa fa-flag"></i></span>
                 <h3>Nuestra marca</h3>
                 <p>Si nos elegiste, lo has hecho excelente.</p>
                 <br />
@@ -187,7 +187,7 @@
           <div class="col-md-12">
             <div class="col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="1.4s">
               <div class="service-content text-center">
-                <span class="service-icon icon-pentagon"><i class="fa fa-film"></i></span>
+                <span class="service-icon icon-pentagon"><i class="fa fa-tags"></i></span>
                 <h3>Planes Disponibles</h3>
                 <p>Estos son nuestros mejores planes, los cuales están adaptados acorde al estado de la sociedad Dominicana.</p>
               </div>
