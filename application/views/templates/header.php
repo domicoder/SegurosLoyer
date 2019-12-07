@@ -71,7 +71,7 @@
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
               </a>
             </div>
           </div>
@@ -79,8 +79,8 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-              <li><a href="#">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>home/services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>home/cotizacion">Cotizaciones</a></li>
               <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
               <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
             </ul>
@@ -175,7 +175,7 @@
 
                 <span class=""><img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo"></span>
 
-                <p><strong>Seguros LOYER</strong> tu mejor elección asegurarte; con nosotros ante cualquier situación siempre estarás en primer lugar, tú eres nuestro motivo.</p>
+                <p><strong>Seguros LOYER</strong> tu mejor elección para asegurarte; con nosotros ante cualquier situación siempre estarás en primer lugar, tú eres nuestro motivo.</p>
               </div>
             </div>
             <!--/ End 4th service -->
@@ -201,15 +201,13 @@
           <div class="col-md-4 col-sm-6 wow fadeInUp facts" data-wow-delay="1.4s">
               <div class="plan text-center featured">
                   <span class="plan-name">Seguro <small>de vida</small></span>
-                  <p class="plan-price"><sup class="currency">$</sup><strong>999</strong><sub>.99</sub></p>
+                  <p class="plan-price"><sup class="currency">RD$</sup><strong>485</strong><sub>.99</sub><sup class="currency">Mensual</sup></p>
                   <ul class="list-unstyled">
-                      <li>Información 1</li>
-                      <li>Información 2</li>
-                      <li>Información 3</li>
-                      <li>Información 4</li>
-                      <li>Información 5t</li>
+                      <li>Covertura parcial</li>
+                      <li>Plan dental</li>
+                      <li>Medicare</li>
                   </ul>
-                  <a class="btn btn-primary" href="#.">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
 
@@ -217,15 +215,13 @@
           <div class="col-md-4 col-sm-6 wow fadeInUp facts" data-wow-delay="1.4s">
               <div class="plan text-center featured">
                   <span class="plan-name">Seguro <small>de hogar</small></span>
-                  <p class="plan-price"><sup class="currency">$</sup><strong>9999</strong><sub>.99</sub></p>
+                  <p class="plan-price"><sup class="currency">RD$</sup><strong>669</strong><sub>.99</sub><sup class="currency">Mensual</sup></p>
                   <ul class="list-unstyled">
-                      <li>Información 1</li>
-                      <li>Información 2</li>
-                      <li>Información 3</li>
-                      <li>Información 4</li>
-                      <li>Información 5t</li>
+                      <li>Convertura completa</li>
+                      <li>Seguro de vida</li>
+                      <li>Seguro de hogar</li>
                   </ul>
-                  <a class="btn btn-primary" href="#.">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
 
@@ -233,15 +229,13 @@
           <div class="col-md-4 col-sm-6 wow fadeInUp facts" data-wow-delay="1.4s">
               <div class="plan text-center featured">
                   <span class="plan-name">Seguro <small>de vehículo</small></span>
-                  <p class="plan-price"><sup class="currency">$</sup><strong>99999</strong><sub>.99</sub></p>
+                  <p class="plan-price"><sup class="currency">RD$</sup><strong>889</strong><sub>.99</sub><sup class="currency">Mensual</sup></p>
                   <ul class="list-unstyled">
-                      <li>Información 1</li>
-                      <li>Información 2</li>
-                      <li>Información 3</li>
-                      <li>Información 4</li>
-                      <li>Información 5t</li>
+                      <li>Covertura complete</li>
+                      <li>Seguro dental</li>
+                      <li>Seguro de salud</li>
                   </ul>
-                  <a class="btn btn-primary" href="#.">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
         </div>

@@ -18,13 +18,13 @@
 
     public function admin($page)
     {
-      if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-        redirect('Home/admin/devlegend-admin');
+      if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+        redirect('Home/admin/login-admin');
       }
       if (!file_exists(APPPATH.'views/admin/'.$page.".php")) {
         show_404();
       }
-      if ($page === 'devlegend-admin') {
+      if ($page === 'login-admin') {
         $this->load->view('admin/'.$page);
       }else {
         $this->load->view('templates/header-admin');
@@ -33,11 +33,18 @@
       }
     }
 
-    public function trailers(){
+    public function services(){
       $this->load->model('Crud_model');
-      $trailers = $this->Crud_model->get_trailer();
+      $services = $this->Crud_model->get_trailer();
 
-      $this->load->view('pages/trailers', compact("trailers"));
+      $this->load->view('pages/services', compact("services"));
+    }
+
+    public function cotizacion(){
+      $this->load->model('Crud_model');
+      $services = $this->Crud_model->get_trailer();
+
+      $this->load->view('pages/cotizacion', compact("services"));
     }
 
     public function nosotros(){
@@ -52,14 +59,14 @@
       $this->load->view('templates/footer');
     }
 
-    public function trailerDetails(){
+    public function servicesDetails(){
 
       $id = $this->uri->segment(3);
 
       $this->load->model('Crud_model');
-      $trailer = $this->Crud_model->get_trailer_by_id($id);
+      $service = $this->Crud_model->get_trailer_by_id($id);
 
-      $this->load->view('pages/trailer-details', compact("trailer"));
+      $this->load->view('pages/service-details', compact("service"));
       $this->load->view('templates/footer');
     }
 

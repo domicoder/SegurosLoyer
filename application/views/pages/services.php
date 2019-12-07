@@ -70,7 +70,7 @@
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
               </a>
             </div>
           </div>
@@ -78,8 +78,8 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-              <li><a href="#">Cotizaciones</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>home/services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>home/cotizacion">Cotizaciones</a></li>
               <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
               <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
             </ul>
@@ -98,7 +98,7 @@
       <!-- Subpage title start -->
       <div class="banner-title-content">
         <div class="text-center">
-          <h2><?php echo ('Servicios'); ?></h2>
+          <h2><?php echo ('Nuestros servicios'); ?></h2>
         </div>
       </div><!-- Subpage title end -->
     </div><!-- Banner area end -->
@@ -109,7 +109,7 @@
         <div class="row">
           <div class="col-md-12 heading">
             <span class="title-icon classic pull-left"><i class="fa fa-newspaper-o"></i></span>
-            <h2 class="title classic">Trailers Disponibles</h2>
+            <h2 class="title classic">Nuestros servicios</h2>
           </div>
         </div> <!-- Title row end -->
       </div>
@@ -117,21 +117,21 @@
       <div class="container">
         <?php
 
-        foreach ($trailers as $trailer) {
+        foreach ($services as $service) {
           ?>
 
           <div class="col-sm-3 portfolio-static-item" style="height: 300px;">
             <div class="grid">
               <figure class="effect-oscar">
-                <img src="<?php echo $trailer->portada; ?>" alt="portada">
+                <img src="<?php echo $service->portada; ?>" alt="portada">
                 <figcaption>
-                <a class="view icon-pentagon" href="<?php echo base_url('home/trailer-details/' . $trailer->id); ?>"><i class="fa fa-search"></i></a>
+                <a class="view icon-pentagon" href="<?php echo base_url('home/service-details/' . $service->id); ?>"><i class="fa fa-search"></i></a>
                 </figcaption>
               </figure>
               <div class="portfolio-static-desc">
-                <h3>Trailer</h3>
-                <h3><?php echo $trailer->titulo; ?></h3>
-                <span><?php echo $trailer->director; ?> </span>
+                <h3>Servicios/Planes</h3>
+                <h3><?php echo $service->titulo; ?></h3>
+                <span><?php echo $service->director; ?> </span>
               </div>
             </div>
             <!--/ grid end -->
@@ -187,6 +187,8 @@
         <div class="col-md-12 text-center">
           <div class="copyright-info">
             &copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
+            <br>
+					  <span><a href="<?php echo base_url(); ?>Home/admin/admin-home">ADMIN PAGE (is visible purpose my teacher)</a></span>
           </div>
         </div>
       </div>

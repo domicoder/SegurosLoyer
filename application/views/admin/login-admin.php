@@ -41,16 +41,19 @@
       <?php endif; ?>
       <?php echo form_open('Users/login'); ?>
       <div class="form-login">
-
-        <h2 class="form-login-heading" >LOGIN NOW </h2>
+        <h2 class="form-login-heading" >Iniciar sesión ahora</h2>
         <div class="login-wrap">
           <input type="text" class="form-control" name="username" placeholder="Nombre de Usuario" required autofocus>
           <br>
           <input type="password" class="form-control" name="password" placeholder="Contraseña" requiered autofocus>
           <br>
-          <button class="btn btn-theme btn-block" type="submit" name="submit"><i class="fa fa-lock"></i> LOGIN</button>
+          <button class="btn btn-theme btn-block" type="submit" name="submit"><i class="fa fa-lock"></i> Iniciar sesión</button>
           <hr>
         </div>
+        <?php echo form_close(); ?>
+      </div>
+      <div class="form-login">
+        <h2 class="form-login-heading"><a class="" href="<?php echo base_url(); ?>">Regresar a página inicio</a></h2>
         <?php echo form_close(); ?>
       </div>
     </div>

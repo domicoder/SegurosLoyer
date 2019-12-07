@@ -669,7 +669,7 @@ blockquote {
 	position: absolute;
 	left: 0;
 	padding: 3px 15px 10px;
-	width: 20%;
+	width: 7%;
 	height: 62px;
 	line-height: 62px;
 
@@ -677,7 +677,7 @@ blockquote {
 
 .navbar-brand img{
 	float: right;
-	padding: 0 15px;
+	padding: 0 3px;
 
 }
 

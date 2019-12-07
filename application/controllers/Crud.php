@@ -3,8 +3,8 @@
 class Crud extends CI_Controller
 {
   public function borrar($page =''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('Home/admin/login-admin');
     }
 
     $data['trailer'] = null;
@@ -14,8 +14,8 @@ class Crud extends CI_Controller
   }
 
   public function create($page = ''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('Home/admin/login-admin');
     }
 
     $this->form_validation->set_rules('titulo', 'Titulo', 'required');
@@ -31,7 +31,7 @@ class Crud extends CI_Controller
       $this->load->view('templates/footer-admin');
     }else{
       $this->Crud_model->create_trailer();
-      $this->session->set_flashdata('creation_success','Los datos de la pelicula fueron insertados');
+      $this->session->set_flashdata('creation_success','Los datos del plan fueron insertados.');
       redirect('crud/create/admin-create');
     }
 
@@ -60,8 +60,8 @@ class Crud extends CI_Controller
   
 
   public function buscar($page =''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('Home/admin/login-admin');
     }
     $this->form_validation->set_rules('busqueda', 'Busqueda', 'required');
     if ($this->form_validation->run() === FALSE) {

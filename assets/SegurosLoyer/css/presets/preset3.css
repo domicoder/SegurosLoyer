@@ -105,7 +105,7 @@ h2.entry-title a:hover{
 
 /*-- Header --*/
 .header{
-	border-top: 5px solid #2C7CFF;
+	border-top: 5px solid #ffffff;
 }
 
 .header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
@@ -115,7 +115,7 @@ h2.entry-title a:hover{
 /*-- Logo --*/
 
 .navbar-brand.navbar-bg{
-	background: #2C7CFF;
+	background: #ffffff;
 }
 
 /*-- Main navigation --*/

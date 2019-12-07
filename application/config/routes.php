@@ -12,4 +12,8 @@ $route['home/nosotros'] = 'Home/nosotros';
 
 $route['home/contacto'] = 'Home/contacto';
 
-$route['home/trailer-details/(:num)'] = 'Home/trailerDetails';
+$route['home/services'] = 'Home/services';
+
+$route['home/service-details/(:num)'] = 'Home/servicesDetails';
+
+$route['admin'] = 'Home/admin/login-admin';

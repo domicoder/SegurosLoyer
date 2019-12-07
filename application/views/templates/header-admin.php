@@ -75,21 +75,21 @@
           <li class="sub-menu">
            <a href="<?php echo base_url(); ?>crud/create/admin-create">
             <i class="fa fa-plus"></i>
-              <span>Crear Película</span>
+              <span>Crear Plan</span>
               </a>
 
           </li>
           <li class="sub-menu">
             <a href="<?php echo base_url(); ?>crud/edit">
             <i class="fa fa-edit"></i>
-              <span>Modificar Película</span>
+              <span>Modificar Plan</span>
               </a>
 
           </li>
           <li class="sub-menu">
              <a href="<?php echo base_url(); ?>crud/borrar">
             <i class="fa fa-trash"></i>
-              <span>Eliminar Película</span>
+              <span>Eliminar Plan</span>
               </a>
 
           </li>
@@ -103,7 +103,7 @@
           <li class="sub-menu">
           <a href="<?php echo base_url(); ?>crud/read/admin-buscar">
               <i class="fa fa-search"></i>
-              <span>Buscar Película</span>
+              <span>Buscar Plan</span>
               </a>
           </li>
 

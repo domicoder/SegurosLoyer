@@ -2,7 +2,7 @@
         <section class="wrapper">
            <div class="row">
            <div class="col-lg-12">
-            <h4><i class="fa fa-angle-right"></i> Crear Película</h4>
+            <h4><i class="fa fa-angle-right"></i> Crear Plan</h4>
             <div class="form-panel">
               <div class=" form">
                 <?php echo validation_errors(); ?>
@@ -19,21 +19,21 @@
                     </div>
                   </div>
                   <div class="form-group ">
-                    <label for="Ctitulo" class="control-label col-lg-3">Titulo de la Pelicula:</label>
+                    <label for="Ctitulo" class="control-label col-lg-3">Titulo del Plan:</label>
                     <div class="col-lg-4">
                       <input class=" form-control" id="Ctitulo" name="titulo" minlength="2" type="text" required />
                     </div>
                   </div>
 
                   <div class="form-group ">
-                    <label for="Cgenero" class="control-label col-lg-3">Genero de la Pelicula:</label>
+                    <label for="Cgenero" class="control-label col-lg-3">Género del Plan:</label>
                     <div class="col-lg-4">
                       <input class="form-control " id="Cgenero" type="text" name="genero" required />
                     </div>
                   </div>
 
                  <div class="form-group ">
-                    <label for="Cdirector" class="control-label col-lg-3">Director de la Pelicula:</label>
+                    <label for="Cdirector" class="control-label col-lg-3">Director del Plan:</label>
                     <div class="col-lg-4">
                       <input class="form-control " id="Cdirector" type="text" name="director" required />
                     </div>
@@ -50,13 +50,13 @@
                    </div>
 
                   <div class="form-group ">
-                    <label for="curl" class="control-label col-lg-3">URL Del Trailer de la Pelicula:</label>
+                    <label for="curl" class="control-label col-lg-3">URL del Plan:</label>
                     <div class="col-lg-4">
                       <input class="form-control " id="curl" type="url" name="url" required/>
                     </div>
                   </div>
                   <div class="form-group ">
-                    <label for="Ccomentario" class="control-label col-lg-3">Descripcion de la Pelicula:</label>
+                    <label for="Ccomentario" class="control-label col-lg-3">Descripcion del Plan:</label>
                     <div class="col-lg-4">
                       <textarea class="form-control " id="Ccomentario" name="descripcion" required></textarea>
                     </div>
