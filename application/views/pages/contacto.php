@@ -70,7 +70,7 @@
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
               </a>
             </div>
           </div>
@@ -78,10 +78,10 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-              <li><a href="#">Cotizaciones</a></li>
-              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+              <li><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -156,7 +156,7 @@
           <div class="col-md-5">
             <div class="contact-info">
               <h3>Detalles de contacto</h3>
-              <p><strong>Seguros LOYER</strong> tu mejor elección asegurarte; con nosotros ante cualquier situación siempre estarás en primer lugar, tú eres nuestro motivo.</p>
+              <p><strong>Seguros LOYER</strong> tu mejor elección para asegurarte; con nosotros ante cualquier situación siempre estarás en primer lugar, tú eres nuestro motivo.</p>
               <br>
               <p><i class="fa fa-home info"></i> Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606 </p>
               <p><i class="fa fa-envelope-o info"></i> 20175379@itla.edu.do</p>

@@ -110,7 +110,7 @@
 	}
 
 	.navbar-brand.navbar-bg{
-		width: 25%;
+		/* width: 13%; */
 	}
 
 	.header2 .navbar-brand, .header3 .navbar-brand,
@@ -274,7 +274,6 @@
 /* Small Devices Potrait */
 @media (max-width : 767px){
 
-	
 	/* Common */
 	.parallax{
 		padding: 60px 0;
@@ -314,8 +313,8 @@
 	/* Logo */
 	.navbar-brand.navbar-bg{
 		height: 50px;
-  		line-height: 50px;
-  		width: auto;
+    line-height: 50px;
+  	width: 11%;
 	}
 	.navbar-brand.navbar-bg img{
 		background-size: contain;
@@ -337,7 +336,7 @@
 
 	.navbar-collapse ul.navbar-nav > li.active > a,
 	.navbar-collapse ul.navbar-nav > li:hover > a{
-		color: #4ECDC4;
+		color: #2C7CFF;
 	}
 
 	/* Slideshow */
@@ -563,7 +562,7 @@
 
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media (max-width : 320px) and (max-width: 478px)  {
 
 

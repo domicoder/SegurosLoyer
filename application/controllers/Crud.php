@@ -3,8 +3,8 @@
 class Crud extends CI_Controller
 {
   public function borrar($page =''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('admin');
     }
 
     $data['trailer'] = null;
@@ -14,8 +14,8 @@ class Crud extends CI_Controller
   }
 
   public function create($page = ''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('admin');
     }
 
     $this->form_validation->set_rules('titulo', 'Titulo', 'required');
@@ -30,8 +30,8 @@ class Crud extends CI_Controller
       $this->load->view('admin/admin-create');
       $this->load->view('templates/footer-admin');
     }else{
-      $this->crud_model->create_trailer();
-      $this->session->set_flashdata('creation_success','Los datos de la pelicula fueron insertados');
+      $this->Crud_model->create_trailer();
+      $this->session->set_flashdata('creation_success','Los datos del plan fueron insertados.');
       redirect('crud/create/admin-create');
     }
 
@@ -53,15 +53,15 @@ class Crud extends CI_Controller
   }
 
   public function update(){
-    $this->crud_model->update_trailer();
+    $this->Crud_model->update_trailer();
     redirect('crud/edit');
   }
 
   
 
   public function buscar($page =''){
-    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/devlegend-admin');
+    if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
+      redirect('admin');
     }
     $this->form_validation->set_rules('busqueda', 'Busqueda', 'required');
     if ($this->form_validation->run() === FALSE) {
@@ -69,7 +69,7 @@ class Crud extends CI_Controller
       $this->load->view('admin/'.$page);
       $this->load->view('templates/footer-admin');
     }else {
-      $datos['trailer'] = $this->crud_model->read_trailer();
+      $datos['trailer'] = $this->Crud_model->read_trailer();
     }
     $this->load->view('templates/header-admin');
     $this->load->view('admin/'.$page, $datos);
@@ -77,7 +77,7 @@ class Crud extends CI_Controller
   }
 
   public function delete($id){
-    $this->crud_model->delete_trailer($id);
+    $this->Crud_model->delete_trailer($id);
     redirect('crud/borrar');
   }
 

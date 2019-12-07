@@ -70,7 +70,7 @@
 						</button>
 						<div class="navbar-brand navbar-bg">
 							<a href="<?php echo base_url(); ?>">
-								<img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+								<img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
 							</a>
 						</div>
 					</div>
@@ -78,10 +78,10 @@
 					<nav class="collapse navbar-collapse clearfix" role="navigation">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-							<li><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-							<li><a href="#">Cotizaciones</a></li>
-							<li class="active"><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-							<li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+							<li><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+							<li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+							<li class="active"><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+							<li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
 						</ul>
 					</nav>
 					<!--/ Navigation end -->
@@ -160,11 +160,11 @@
 								<span class="img-bottom"></span>
 							</div>
 							<div class="team-content">
-								<h3>Luis Adolfo Pimentel Colón</h3>
+								<h3>Luis Daniel Martinez</h3>
 								<p>Software & Web Developer</p>
 								<div class="team-social">
-									<a class="linkdin" target="_blank" href="https://do.linkedin.com/in/lu%C3%ADs-adolfo-pimentel-col%C3%B3n-ba1412183?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
-									<a class="dribble" target="_blank" href="https://github.com/lapc18"><i class="fa fa-github"></i></a>
+									<a class="linkdin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+									<a class="dribble" target="_blank" href="https://github.com/luisdanielmartinez"><i class="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>
@@ -178,11 +178,11 @@
 								<span class="img-bottom"></span>
 							</div>
 							<div class="team-content">
-								<h3>Gregory de Mota</h3>
+								<h3>Ricardo Batista</h3>
 								<p>Software & Web Developer</p>
 								<div class="team-social">
 									<a class="linkdin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
-									<a class="dribble" target="_blank" href="https://github.com/gregory19g"><i class="fa fa-github"></i></a>
+									<a class="dribble" target="_blank" href="https://github.com/ricarox"><i class="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>
@@ -200,7 +200,7 @@
 								<p>Software & Web Developer</p>
 								<div class="team-social">
 									<a class="linkdin" target="_blank" href="https://do.linkedin.com/in/oliver-de-jes%C3%BAs-rosario-reyes-ab35b418b?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
-									<a class="dribble" target="_blank" href="https://github.com/oliverrosario"><i class="fa fa-github"></i></a>
+									<a class="dribble" target="_blank" href="https://github.com/TheTuringExperience"><i class="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>

@@ -7,7 +7,7 @@ class Users extends CI_Controller
     $this->form_validation->set_rules('password', 'Password', 'required');
 
     if ($this->form_validation->run() === FALSE) {
-      $this->load->view('home/admin/devlegend-admin');
+      $this->load->view('home/admin/login-admin');
     }else {
       //get username
       $username = $this->input->post('username');
@@ -25,11 +25,10 @@ class Users extends CI_Controller
           );
 
           $this->session->set_userdata($user_data);
-          redirect('Home/admin/admin-home');
+          redirect('admin');
       }else{
         $this->session->set_flashdata('login_failed','Los datos son invalidos');
-
-        redirect('Home/admin/devlegend-admin');
+        redirect('admin');
       }
     }
   }
@@ -40,7 +39,7 @@ class Users extends CI_Controller
     $this->session->unset_userdata('user_id');
     $this->session->unset_userdata('username');
 
-    redirect('Home/admin/devlegend-admin');
+    redirect('admin');
   }
 }
 

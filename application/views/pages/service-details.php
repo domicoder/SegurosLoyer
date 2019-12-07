@@ -70,7 +70,7 @@
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
               </a>
             </div>
           </div>
@@ -78,10 +78,10 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-              <li><a href="#">Cotizaciones</a></li>
-              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -99,7 +99,7 @@
       <div class="banner-title-content">
         <div class="text-center">
           <!-- <h2><?php echo $title ?></h2> -->
-          <h2>Trailers Details</h2>
+          <h2>Artículos</h2>
         </div>
       </div><!-- Subpage title end -->
     </div><!-- Banner area end -->
@@ -110,7 +110,7 @@
         <!-- Portfolio item row start -->
         <div class="row">
           <?php
-          foreach ($trailer as $value) {
+          foreach ($service as $value) {
 
             $link_video = $value->link;
 
@@ -153,7 +153,7 @@
                   <p><strong>Director:</strong> <?php echo $value->director; ?></p>
                   <p><strong>Estreno:</strong> <?php echo $value->estreno; ?></p>
                   <br />
-                  <p><a target="_blank" href="<?php echo $value->link; ?>" class="project-btn btn btn-primary">Ver trailer</a></p>
+                  <p><a target="_blank" href="<?php echo $value->link; ?>" class="project-btn btn btn-primary">Ver video sobre esto</a></p>
                 </div>
               </div>
             </div>

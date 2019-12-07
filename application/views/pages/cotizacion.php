@@ -70,7 +70,7 @@
             </button>
             <div class="navbar-brand navbar-bg">
               <a href="<?php echo base_url(); ?>">
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo.png" alt="logo">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/SegurosLoyer/images/logo_only_trademark.png" alt="logo">
               </a>
             </div>
           </div>
@@ -78,10 +78,10 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/trailers">Servicios</a></li>
-              <li><a href="#">Cotizaciones</a></li>
-              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+              <li><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -98,40 +98,101 @@
       <!-- Subpage title start -->
       <div class="banner-title-content">
         <div class="text-center">
-          <h2><?php echo ('Servicios'); ?></h2>
+          <h2><?php echo ('Cotización'); ?></h2>
         </div>
       </div><!-- Subpage title end -->
     </div><!-- Banner area end -->
 
-    <!-- Portfolio start -->
+    <!-- Plans start -->
     <section id="main-container" class="portfolio-static">
-      <div class="container">
+      <div class="container"><!-- Content Cotizacion row start -->
         <div class="row">
           <div class="col-md-12 heading">
-            <span class="title-icon classic pull-left"><i class="fa fa-film"></i></span>
-            <h2 class="title classic">Trailers Disponibles</h2>
+            <span class="title-icon classic pull-left"><i class="fa fa-money"></i></span>
+            <h2 class="title classic">Cotización</h2>
           </div>
         </div> <!-- Title row end -->
+      </div><!-- Content Cotizacion row end -->
+
+      <div class="container"><!-- Content Form Cotizacion row start -->
+        <div class="row">
+          <div class="col-md-7">
+            <form id="contact-form" action="contact-form.php" method="post" role="form">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Nombre</label>
+                    <input class="form-control" name="name" id="name" placeholder="Firstname Lastname" type="text" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input class="form-control" name="email" id="email" placeholder="example@email.com" type="email" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Teléfono</label>
+                    <input class="form-control" type="text" name="phonenumber" id="phonenumber" placeholder="(000) 000-0000" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Mensaje</label>
+                <textarea class="form-control" name="message" id="message" placeholder="Your message" rows="10" required></textarea>
+              </div>
+              <div class="text-right"><br>
+                <button class="btn btn-primary solid blank" type="submit">Enviar Mensaje</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="contact-info">
+              <h3>Nosotros en su cotización</h3>
+              <p><u><strong>Somos una agencia de seguros.</strong></u></p>
+              <p style="text-align: justify;text-justify: inter-word;">Estamos dedicados a la venta de todo tipo de seguros, garantizandole al cliente que tendra las mejoresofertas del mercado. Somos pioneros en la intención de llevar a las empresas y a las personas lainformacion que necesita para el uso adecuado de sus seguros.</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- Content Form Cotizacion row end -->
+
+      <br><br>
+
+      <div class="container"><!-- Content row start -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="1.4s">
+              <div class="service-content text-center">
+                <h2 class="title classic">Planes a cotizar</h2>
+                <p>"Con nosotros estas seguro"</p>
+                <br><br><br><br>
+              </div>
+            </div>
+            <!--/ End 4th service -->
+          </div>
+        </div><!-- Content row end -->
+
       </div>
 
       <div class="container">
         <?php
 
-        foreach ($trailers as $trailer) {
+        foreach ($services as $service) {
           ?>
 
           <div class="col-sm-3 portfolio-static-item" style="height: 300px;">
             <div class="grid">
               <figure class="effect-oscar">
-                <img src="<?php echo $trailer->portada; ?>" alt="portada">
+                <img src="<?php echo $service->portada; ?>" alt="portada">
                 <figcaption>
-                <a class="view icon-pentagon" href="<?php echo base_url('home/trailer-details/' . $trailer->id); ?>"><i class="fa fa-search"></i></a>
+                <a class="view icon-pentagon" href="<?php echo base_url('service-details/' . $service->id); ?>"><i class="fa fa-search"></i></a>
                 </figcaption>
               </figure>
               <div class="portfolio-static-desc">
-                <h3>Trailer</h3>
-                <h3><?php echo $trailer->titulo; ?></h3>
-                <span><?php echo $trailer->director; ?> </span>
+                <h3>Servicios/Planes</h3>
+                <h3><?php echo $service->titulo; ?></h3>
+                <span><?php echo $service->director; ?> </span>
               </div>
             </div>
             <!--/ grid end -->
@@ -143,23 +204,8 @@
 
       </div><!-- Content row end -->
 
-      <div class="col-md-12 text-center">
-        <nav aria-label="Page navigation">
-          <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
   </div><!-- Container end -->
-  </section><!-- Portfolio end -->
+  </section><!-- Plans end -->
 
   <!-- Footer start -->
   <section id="footer" class="footer footer-map">
@@ -187,6 +233,8 @@
         <div class="col-md-12 text-center">
           <div class="copyright-info">
             &copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
+            <br>
+					  <span><a href="<?php echo base_url(); ?>admin">ADMIN PAGE (is visible purpose my teacher)</a></span>
           </div>
         </div>
       </div>
@@ -231,6 +279,11 @@
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/waypoints.min.js"></script>
   <!-- Template custom -->
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/SegurosLoyer/js/custom.js"></script>
+  <!-- InputMask -->
+  <script src="<?php echo base_url(); ?>assets/SegurosLoyer/js/jquery.inputmask.js"></script>
+  <script>
+    $("#phonenumber").inputmask({"mask": "(999) 999-9999"});
+  </script>
   </div><!-- Body inner end -->
 </body>
 
