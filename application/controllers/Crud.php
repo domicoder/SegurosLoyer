@@ -4,7 +4,7 @@ class Crud extends CI_Controller
 {
   public function borrar($page =''){
     if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/login-admin');
+      redirect('admin');
     }
 
     $data['trailer'] = null;
@@ -15,7 +15,7 @@ class Crud extends CI_Controller
 
   public function create($page = ''){
     if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/login-admin');
+      redirect('admin');
     }
 
     $this->form_validation->set_rules('titulo', 'Titulo', 'required');
@@ -61,7 +61,7 @@ class Crud extends CI_Controller
 
   public function buscar($page =''){
     if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
-      redirect('Home/admin/login-admin');
+      redirect('admin');
     }
     $this->form_validation->set_rules('busqueda', 'Busqueda', 'required');
     if ($this->form_validation->run() === FALSE) {

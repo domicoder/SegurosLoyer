@@ -79,7 +79,7 @@
 				<div class="copyright-info">
 					&copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
 					<br>
-					<span><a href="<?php echo base_url(); ?>Home/admin/admin-home">ADMIN PAGE (is visible purpose my teacher)</a></span>
+					<span><a href="<?php echo base_url(); ?>admin">ADMIN PAGE (is visible purpose my teacher)</a></span>
 				</div>
 			</div>
 		</div>

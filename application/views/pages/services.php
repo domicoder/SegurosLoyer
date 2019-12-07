@@ -78,10 +78,10 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li class="active"><a href="<?php echo base_url(); ?>home/services">Servicios</a></li>
-              <li><a href="<?php echo base_url(); ?>home/cotizacion">Cotizaciones</a></li>
-              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+              <li class="active"><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -125,7 +125,7 @@
               <figure class="effect-oscar">
                 <img src="<?php echo $service->portada; ?>" alt="portada">
                 <figcaption>
-                <a class="view icon-pentagon" href="<?php echo base_url('home/service-details/' . $service->id); ?>"><i class="fa fa-search"></i></a>
+                <a class="view icon-pentagon" href="<?php echo base_url('service-details/' . $service->id); ?>"><i class="fa fa-search"></i></a>
                 </figcaption>
               </figure>
               <div class="portfolio-static-desc">
@@ -188,7 +188,7 @@
           <div class="copyright-info">
             &copy; Inspired <span>in <a href="https://themefisher.com">THEMEFISHER</a></span>
             <br>
-					  <span><a href="<?php echo base_url(); ?>Home/admin/admin-home">ADMIN PAGE (is visible purpose my teacher)</a></span>
+					  <span><a href="<?php echo base_url(); ?>admin">ADMIN PAGE (is visible purpose my teacher)</a></span>
           </div>
         </div>
       </div>

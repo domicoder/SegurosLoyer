@@ -15,7 +15,7 @@
       <?php
       $value = 0;
 
-      foreach ($trailers as $trailer) {
+      foreach ($services as $service) {
         if ($value < 7) {
 
 
@@ -24,15 +24,15 @@
           <div class="col-sm-3 portfolio-static-item" style="height: 300px">
             <div class="grid">
               <figure class="effect-oscar">
-                <img src="<?php echo $trailer->portada; ?>" alt="portada">
+                <img src="<?php echo $service->portada; ?>" alt="portada">
                 <figcaption>
-                  <a class="view icon-pentagon" href="<?php echo base_url('home/service-details/' . $trailer->id); ?>"><i class="fa fa-search"></i></a>
+                  <a class="view icon-pentagon" href="<?php echo base_url('service-details/' . $service->id); ?>"><i class="fa fa-search"></i></a>
                 </figcaption>
               </figure>
               <div class="portfolio-static-desc">
                 <h3>Artículo</h3>
-                <h3><?php echo $trailer->titulo; ?></h3>
-                <span><?php echo $trailer->director; ?></span>
+                <h3><?php echo $service->titulo; ?></h3>
+                <span><?php echo $service->director; ?></span>
               </div>
             </div>
             <!--/ grid end -->
@@ -49,11 +49,11 @@
           <figure class="effect-oscar">
             <img height="175" src="http://www.glee.com.ar/assets/img/ver_mas_milo_sm.png" alt="portada">
             <figcaption>
-              <a class="link icon-pentagon" href="<?php echo base_url(); ?>home/services"><i class="fa fa-link"></i></a>
+              <a class="link icon-pentagon" href="<?php echo base_url(); ?>services"><i class="fa fa-link"></i></a>
             </figcaption>
           </figure>
           <div class="portfolio-static-desc">
-            <a href="<?php echo base_url(); ?>home/services">
+            <a href="<?php echo base_url(); ?>services">
               <h3>Ver mas </h3>
               <h3>Leer más servicios/planes.</h3>
             </a>

@@ -25,10 +25,10 @@ class Users extends CI_Controller
           );
 
           $this->session->set_userdata($user_data);
-          redirect('Home/admin/admin-home');
+          redirect('admin');
       }else{
         $this->session->set_flashdata('login_failed','Los datos son invalidos');
-        redirect('Home/admin/login-admin');
+        redirect('admin');
       }
     }
   }
@@ -39,7 +39,7 @@ class Users extends CI_Controller
     $this->session->unset_userdata('user_id');
     $this->session->unset_userdata('username');
 
-    redirect('Home/admin/login-admin');
+    redirect('admin');
   }
 }
 

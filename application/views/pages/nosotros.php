@@ -78,10 +78,10 @@
 					<nav class="collapse navbar-collapse clearfix" role="navigation">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-							<li><a href="<?php echo base_url(); ?>home/services">Servicios</a></li>
-							<li><a href="<?php echo base_url(); ?>home/cotizacion">Cotizaciones</a></li>
-							<li class="active"><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-							<li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+							<li><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+							<li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+							<li class="active"><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+							<li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
 						</ul>
 					</nav>
 					<!--/ Navigation end -->

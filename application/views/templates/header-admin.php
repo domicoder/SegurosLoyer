@@ -46,7 +46,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-         <a href="<?php echo base_url(); ?>home/admin/admin-home" class="logo"><b>ADMIN AREA<span> Seguros LOYER</span></b></a>
+         <a href="<?php echo base_url(); ?>admin" class="logo"><b>ADMIN AREA<span> Seguros LOYER</span></b></a>
       <!--logo end-->
 
       <div class="top-menu">
@@ -67,7 +67,7 @@
           <p class="centered"><a href="<?php echo base_url(); ?>home/admin/admin-profile"><img src="<?php echo base_url(); ?>assets/img/ui-sam.jpg" class="img-circle" width="80"></a></p>
          <h5 class="centered">ADMINISTRADOR</h5>
           <li class="mt">
-            <a class="sub-menu" href="<?php echo base_url(); ?>home/admin/admin-home">
+            <a class="sub-menu" href="<?php echo base_url(); ?>admin">
               <i class="fa fa-home"></i>
               <span>Dashboard</span>
               </a>

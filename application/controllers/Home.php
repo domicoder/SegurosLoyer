@@ -8,10 +8,10 @@
       }
 
       $this->load->model('Crud_model');
-      $trailers = $this->Crud_model->get_trailer();
+      $services = $this->Crud_model->get_trailer();
 
       $this->load->view('templates/header');
-      $this->load->view('pages/'.$page, compact("trailers"));
+      $this->load->view('pages/'.$page, compact("services"));
       $this->load->view('templates/footer');
 
     }
@@ -19,7 +19,7 @@
     public function admin($page)
     {
       if ($page != 'login-admin' && !$this->session->userdata('logged_in')) {
-        redirect('Home/admin/login-admin');
+        redirect('admin');
       }
       if (!file_exists(APPPATH.'views/admin/'.$page.".php")) {
         show_404();
@@ -61,7 +61,7 @@
 
     public function servicesDetails(){
 
-      $id = $this->uri->segment(3);
+      $id = $this->uri->segment(2);
 
       $this->load->model('Crud_model');
       $service = $this->Crud_model->get_trailer_by_id($id);

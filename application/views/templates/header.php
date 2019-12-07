@@ -79,10 +79,10 @@
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
-              <li><a href="<?php echo base_url(); ?>home/services">Servicios</a></li>
-              <li><a href="<?php echo base_url(); ?>home/cotizacion">Cotizaciones</a></li>
-              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
-              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+              <li><a href="<?php echo base_url(); ?>services">Servicios</a></li>
+              <li><a href="<?php echo base_url(); ?>cotizacion">Cotizaciones</a></li>
+              <li><a href="<?php echo base_url(); ?>nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -104,7 +104,7 @@
             <div class="cd-full-width">
               <h2>Seguros de Vida</h2>
               <h3>Resguarda la educación de tus hijos con buen seguro de vida.</h3>
-              <a href="<?php echo base_url(); ?>home/trailers" class="btn btn-primary solid cd-btn">Leer más...</a>
+              <a href="<?php echo base_url(); ?>services" class="btn btn-primary solid cd-btn">Leer más...</a>
             </div> <!-- .cd-full-width -->
           </li>
           <li>
@@ -114,7 +114,7 @@
             <div class="cd-half-width">
               <h2>Contáctanos</h2>
               <p>Para recibir información adicional, no dude en informarnos por esta via. Respondemos en 24 horas.</p>
-              <a href="<?php echo base_url(); ?>home/contacto" class="cd-btn btn btn-primary solid">Leer más...</a>
+              <a href="<?php echo base_url(); ?>contacto" class="cd-btn btn btn-primary solid">Leer más...</a>
             </div> <!-- .cd-half-width -->
 
             <div class="cd-half-width cd-img-container">
@@ -131,7 +131,7 @@
             <div class="cd-half-width">
               <h2>Seguro de Vehículo</h2>
               <p>Adquiere el mejor seguro para tu vehículo. Viaja sin preocupación ante cualquier accidente que le ocurra a su vehículo.</p>
-              <a href="<?php echo base_url(); ?>home/trailers" class="cd-btn btn secondary btn-primary solid">Leer más...</a>
+              <a href="<?php echo base_url(); ?>services" class="cd-btn btn secondary btn-primary solid">Leer más...</a>
             </div> <!-- .cd-half-width -->
           </li>
         </ul>
@@ -207,7 +207,7 @@
                       <li>Plan dental</li>
                       <li>Medicare</li>
                   </ul>
-                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
 
@@ -221,7 +221,7 @@
                       <li>Seguro de vida</li>
                       <li>Seguro de hogar</li>
                   </ul>
-                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
 
@@ -235,7 +235,7 @@
                       <li>Seguro dental</li>
                       <li>Seguro de salud</li>
                   </ul>
-                  <a class="btn btn-primary" href="<?php echo base_url();?>home/cotizacion">Hacer cotización</a>
+                  <a class="btn btn-primary" href="<?php echo base_url();?>cotizacion">Hacer cotización</a>
               </div>
           </div><!-- plan end -->
         </div>
